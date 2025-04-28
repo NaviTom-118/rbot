@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 if(process.argv.length<5 || process.argv.length>7)
 {
-	console.log("Usage : rbot <host> <port> <name> [<password>] [<master>]");
+	console.log("Usage : rbot xxAll.aternos.me 58774 Salamibrot [<password>] [<master>]");
 	process.exit(1);
 }
 const mineflayer = require('mineflayer');
